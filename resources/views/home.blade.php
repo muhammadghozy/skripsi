@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Healdi - Medical & Health Template">
 
+    <link rel="icon" href="{{ asset('assets/images/icon.png') }}" type="image/png" />
+
     <!-- ========== Page Title ========== -->
-    <title>Healdi - Medical & Health Template</title>
+    <title>Klinik Saras Medika Sragen</title>
 
     <!-- ========== Favicon Icon ========== -->
     <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
@@ -114,7 +116,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                         <i class="fa fa-bars"></i>
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ url ('/') }}">
                         <img src="homepage/assets/img/logosaras1.png" class="logo" alt="Logo">
                     </a>
                 </div>
