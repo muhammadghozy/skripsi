@@ -30,31 +30,11 @@ Route::get('/user-profile', function () {
     return view('user-profile');
 });
 
-Route::get('/rawat-inap', function () {
-    return view('rawat-inap');
-});
-
-
-
-Route::get('/edit-rawat-inap', function () {
-    return view('edit-rawat-inap');
-});
 
 Route::get('/jadwal-praktik', function () {
     return view('jadwal-praktik');
 });
 
-Route::get('/rekam-medis', function () {
-    return view('rekam-medis');
-});
-
-Route::get('/rekam-medis-rawat-inap', function () {
-    return view('rekam-medis-rawat-inap');
-});
-
-Route::get('/rekam-medis-rawat-inap-admin', function () {
-    return view('rekam-medis-rawat-inap-admin');
-});
 
 
 
