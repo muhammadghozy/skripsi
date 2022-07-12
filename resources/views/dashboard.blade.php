@@ -73,7 +73,7 @@
 		</div> --}}
 		
 		<div class="row product-grid">
-			@if((Auth::user()->role ?? '') == 'Pasien')
+			{{-- @if((Auth::user()->role ?? '') == 'Pasien') --}}
 			<div class="col">
 				<div class="card">
 					{{-- <img src="{{ asset('assets/images/products/01.png') }}" class="card-img-top" alt="..."> --}}
@@ -149,7 +149,7 @@
 					</div>
 				</div>
 			</div>
-			@endif
+			{{-- @endif --}}
 		</div><!--end row-->
 	</div>
 </div>

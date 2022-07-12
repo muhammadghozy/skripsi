@@ -341,9 +341,9 @@
                     <h5>Klinik Umum Pratama</h5>
                     <h2>SARAS MEDIKA</h2>
                     <p>
-                        Pursuit chamber as elderly amongst on. Distant however warrant farther to of. My justice wishing prudent waiting in be. Who decisively attachment has dispatched. Fruit defer in party me built under first. Forbade him but savings sending ham general.
+                        Klinik Umum Pratama Saras Medika adalah fasilitas medis rumah sakit umum daerah sragen yang diperuntukkan melayani kesehatan umum. Klinik Saras Medika memberi pelayanan kepada pasien untuk rawat jalan dan rawat inap serta periksa gigi.
                     </p>
-                    <ul>
+                    {{-- <ul>
                         <li>
                             <div class="icon">
                                 <i class="flaticon-calendar"></i>
@@ -360,8 +360,8 @@
                                 <h5><a href="#">Health Queries</a></h5>
                             </div>
                         </li>
-                    </ul>
-                    <a class="btn btn-md btn-gradient" href="#"><i class="fas fa-angle-right"></i> Make Appoinment</a>
+                    </ul> --}}
+                    {{-- <a class="btn btn-md btn-gradient" href="#"><i class="fas fa-angle-right"></i> Make Appoinment</a> --}}
                 </div>
 
             </div>
@@ -377,10 +377,10 @@
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
                         <h4>Layanan</h4>
-                        <h2>Our Department</h2>
-                        <p>
+                        <h2>klinik Saras Medika</h2>
+                        {{-- <p>
                             While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>
@@ -397,16 +397,16 @@
                             <div class="info">
                                 <h4><a href="#">Rawat Inap</a></h4>
                                 <p>
-                                    Sudden up my excuse to suffer ladies though or. Bachelor possible marianne one directly confined the mention process.  
+                                    Rawat Inap merupakan salah satu dari jenis layanan di Klinik Saras Medika yang memberikan pelayanan kedokteran berupaya pemeriksaan kesehatan dan pengobatan berkala kepada pasien.  
                                 </p>
-                                <div class="head-of">
+                                {{-- <div class="head-of">
                                     <p>
                                         <strong>Department head: </strong> Prof. Jonathom Doe
                                     </p>
-                                </div>
-                                <div class="bottom">
+                                </div> --}}
+                                {{-- <div class="bottom">
                                     <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!-- End Single Item -->
@@ -418,16 +418,16 @@
                             <div class="info">
                                 <h4><a href="#">Rawat Jalan</a></h4>
                                 <p>
-                                    Sudden up my excuse to suffer ladies though or. Bachelor possible marianne one directly confined the mention process.  
+                                    Rawat Jalan merupakan salah satu dari jenis layanan di Klinik Saras Medika yang memberikan pelayanan kedokteran berupaya pemeriksaan kesehatan dan pengobatan kepada pasien.  
                                 </p>
-                                <div class="head-of">
+                                {{-- <div class="head-of">
                                     <p>
                                         <strong>Department head: </strong> Prof. Jaknil Akia
                                     </p>
-                                </div>
-                                <div class="bottom">
+                                </div> --}}
+                                {{-- <div class="bottom">
                                     <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!-- End Single Item -->
@@ -439,16 +439,16 @@
                             <div class="info">
                                 <h4><a href="#">Poli Gigi</a></h4>
                                 <p>
-                                    Sudden up my excuse to suffer ladies though or. Bachelor possible marianne one directly confined the mention process.  
+                                    Poli Gigi merupakan salah satu dari jenis layanan di Klinik Saras Medika yang memberikan pelayanan kedokteran berupaya pemeriksaan gigi kepada pasien. 
                                 </p>
-                               <div class="head-of">
+                            {{-- <div class="head-of">
                                     <p>
                                         <strong>Department head: </strong> Prof. Shikla Brotha
                                     </p>
-                               </div>
-                                <div class="bottom">
+                            </div> --}}
+                                {{-- <div class="bottom">
                                     <a href="#"><i class="fas fa-arrow-right"></i></a>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                         <!-- End Single Item -->
@@ -1048,10 +1048,10 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 item">
                         <div class="f-item about">
-                            <img src="assets/img/logo-light.png" alt="Logo">
-                            <p>
+                            <img src="homepage/assets/img/logosaras-light.png" width="200" alt="Logo">
+                            {{-- <p>
                                 Required honoured trifling eat pleasure man relation. Assurance yet bed was improving furniture man. Distrusts delighted 
-                            </p>
+                            </p> --}}
                             <div class="address">
                                 <ul>
                                     <li>
@@ -1060,7 +1060,7 @@
                                         </div>
                                         <div class="info">
                                             <h5>Email:</h5>
-                                            <span>support@validtemplates.com</span>
+                                            <span>saras.medika88@gmail.com</span>
                                         </div>
                                     </li>
                                     <li>
@@ -1069,7 +1069,25 @@
                                         </div>
                                         <div class="info">
                                             <h5>Phone:</h5>
-                                            <span>+44-20-7328-4499</span>
+                                            <span>082226262323</span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h5>Facebook:</h5>
+                                            <a href="https://www.facebook.com/sarasmedika.drsiti">@sarasmedika.drsiti</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                        <div class="info">
+                                            <h5>Instagram:</h5>
+                                            <a href="https://www.instagram.com/sarasmedika.drsiti/">sarasmedika.drsiti</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -1079,31 +1097,37 @@
                     
                     <div class="single-item col-lg-2 col-md-6 item">
                         <div class="f-item link">
-                            <h4 class="widget-title">Department</h4>
+                            <h4 class="widget-title">Layanan</h4>
                             <ul>
                                 <li>
-                                    <a href="#">Medecine & Health</a>
+                                    <a>Rawat Inap</a>
                                 </li>
                                 <li>
-                                    <a href="#">Dental Care</a>
+                                    <a>Rawat Jalan</a>
                                 </li>
                                 <li>
-                                    <a href="#">Eye Treatment</a>
+                                    <a>Poli Gigi</a>
                                 </li>
                                 <li>
-                                    <a href="#">Children Chare</a>
+                                    <a>Apotek</a>
                                 </li>
                                 <li>
-                                    <a href="#">Traumatology</a>
+                                    <a>Laboratorium</a>
                                 </li>
                                 <li>
-                                    <a href="#">X-ray</a>
+                                    <a>Fisioterapi</a>
+                                </li>
+                                <li>
+                                    <a>EKG</a>
+                                </li>
+                                <li>
+                                    <a>KB/KIA</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="single-item col-lg-2 col-md-6 item">
+                    {{-- <div class="single-item col-lg-2 col-md-6 item">
                         <div class="f-item link">
                             <h4 class="widget-title">Usefull Links</h4>
                             <ul>
@@ -1127,12 +1151,12 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    <div class="single-item col-lg-4 col-md-6 item">
+                    <div class="single-item col-lg-0 col-md-6 item">
                         <div class="f-item branches">
                             <div class="branches">
-                                <ul>
+                                {{-- <ul>
                                     <li>
                                         <strong>USA Branches:</strong> 
                                         <span>4992 Bryan Avenue, Prior Lake, Minnesota <br> Phone: 651-379-4698</span>
@@ -1141,7 +1165,8 @@
                                         <strong>Central Branches:</strong> 
                                         <span>2001 Kia Magentis, Prior Lake, Minnesota <br> Phone: 651-379-4698</span>
                                     </li>
-                                </ul>
+                                </ul> --}}
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15825.89359352365!2d110.9855782!3d-7.4127415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a5c5a3957bfb45c!2sKLINIK%20SARAS%20MEDIKA%20IGD%2024%20JAM!5e0!3m2!1sen!2sid!4v1657641658639!5m2!1sen!2sid" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -1153,10 +1178,10 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row align-center">
-                    <div class="col-lg-6">
-                        <p>Copyright &copy;  2020. Designed by <a href="#">validtemplatess</a></p>
+                    <div class="col-lg-12 text-center">
+                        <p>Copyright &copy;  2022 <a href="https://www.instagram.com/mgalha_">Muhammad Ghozy</a></p>
                     </div>
-                    <div class="col-lg-6 text-right social">
+                    {{-- <div class="col-lg-6 text-right social">
                         <ul>
                             <li>
                                 <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
@@ -1168,7 +1193,7 @@
                                 <a href="#"><i class="fab fa-youtube"></i> Youtube</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
@@ -1193,6 +1218,11 @@
     <script src="homepage/assets/js/jquery.nice-select.min.js"></script>
     <script src="homepage/assets/js/bootsnav.js"></script>
     <script src="homepage/assets/js/main.js"></script>
+    @section("script")
+	<!-- google maps api -->
+	<script src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15825.89359352365!2d110.9855782!3d-7.4127415!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1a5c5a3957bfb45c!2sKLINIK%20SARAS%20MEDIKA%20IGD%2024%20JAM!5e0!3m2!1sen!2sid!4v1657641658639!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"async defer></script>
+	<script src="{{ asset('assets/plugins/gmaps/map-custom-script.js') }}"></script>
+	@endsection
 
 </body>
 </html>
