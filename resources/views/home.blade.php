@@ -309,7 +309,7 @@
     ============================================= -->
     <div class="about-area default-padding bg-gray relative">
 
-         <!-- Shape -->
+        <!-- Shape -->
         <div class="shape-left-top shape">
             <img src="homepage/assets/img/shape/1.png" alt="Shape">
         </div>
@@ -320,8 +320,8 @@
 
                 <div class="col-lg-6 thumb">
                     <div class="thumb-box">
-                        <img src="homepage/assets/img/800x800.png" alt="Thumb">
-                        <div class="intro-video">
+                        <img src="homepage/assets/img/saras1.png" alt="Thumb">
+                        {{-- <div class="intro-video">
                             <div class="video">
                                 <a href="https://www.youtube.com/watch?v=5vY-D42NFP4" class="popup-youtube relative theme video-play-button item-center">
                                     <i class="fa fa-play"></i>
@@ -333,13 +333,13 @@
                                     If your smile is not becoming to you, then you should be coming.
                                 </p>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
 
                 <div class="col-lg-6 info">
-                    <h5>Has been working since 2000</h5>
-                    <h2>A Great Place to Work. A Great Place to <strong>Receive Care</strong>. Leading Medicine.</h2>
+                    <h5>Klinik Umum Pratama</h5>
+                    <h2>SARAS MEDIKA</h2>
                     <p>
                         Pursuit chamber as elderly amongst on. Distant however warrant farther to of. My justice wishing prudent waiting in be. Who decisively attachment has dispatched. Fruit defer in party me built under first. Forbade him but savings sending ham general.
                     </p>

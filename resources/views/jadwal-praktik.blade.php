@@ -41,27 +41,46 @@
 										<tr>
 											<th scope="col">No</th>
 											<th scope="col">Nama</th>
-											<th scope="col">Jam</th>
+											<th scope="col">Spesialis</th>
 											<th scope="col">Hari</th>
+											<th scope="col">Jam</th>
 										</tr>
 									</thead>
 									<tbody>
 										<tr>
 											<th scope="row">1</th>
-											<td>Mark</td>
-											<td>Otto</td>
-											<td>@mdo</td>
+											<td>dr. Rosyid Prasetyo</td>
+											<td>Dokter Umum</td>
+											<td>Senin</td>
+											<td>07:00-18:00</td>
 										</tr>
 										<tr>
 											<th scope="row">2</th>
-											<td>Jacob</td>
-											<td>Thornton</td>
-											<td>@fat</td>
+											<td>dr. Desi Dyan Ratnasari</td>
+											<td>Dokter Umum</td>
+											<td>Minggu</td>
+											<td>07:00-18:00</td>
 										</tr>
 										<tr>
 											<th scope="row">3</th>
-											<td colspan="2">Larry the Bird</td>
-											<td>@twitter</td>
+											<td>dr. Lia Dwi Nur Fitri Astuti</td>
+											<td>Dokter Umum</td>
+											<td>Kamis dan Sabtu</td>
+											<td>07:00-18:00</td>
+										</tr>
+										<tr>
+											<th scope="row">5</th>
+											<td>dr. Siti Wahyuni</td>
+											<td>Dokter Umum</td>
+											<td>Selasa, Rabu, dan Jumat</td>
+											<td>07:00-18:00</td>
+										</tr>
+										<tr>
+											<th scope="row">6</th>
+											<td>drg. Rizqa Mahdyna</td>
+											<td>Dokter Gigi</td>
+											<td>Selasa-Sabtu (Minggu Libur)</td>
+											<td>07:00-18:00</td>
 										</tr>
 									</tbody>
 								</table>
