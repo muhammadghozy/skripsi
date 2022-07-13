@@ -88,7 +88,7 @@
 									<td>{{ $data->keluhan }}</td>
 									<td>{{ $data->diagnosis }}</td>
 									<td>{{ $data->tindakan }}</td>
-									<td></td>
+									<td>{{ $data->created_at }}</td>
 								</tr>								
 								{{-- @endforeach --}}
 								@endforeach
@@ -122,7 +122,7 @@
 									<td>{{ $data->keluhan }}</td>
 									<td>{{ $data->diagnosis }}</td>
 									<td>{{ $data->tindakan }}</td>
-									<td></td>
+									<td>{{ $data->created_at }}</td>
 								</tr>								
 								{{-- @endforeach --}}
 								@endforeach
@@ -156,7 +156,41 @@
 									<td>{{ $data->keluhan }}</td>
 									<td>{{ $data->diagnosis }}</td>
 									<td>{{ $data->tindakan }}</td>
-									<td></td>
+									<td>{{ $data->created_at }}</td>
+								</tr>								
+								{{-- @endforeach --}}
+								@endforeach
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			@endif
+			@if((Auth::user()->role ?? '') == 'Apoteker')
+			<div class="card">
+				<div class="card-body">
+					<div class="table-responsive">
+						<table id="example2" class="table table-striped table-bordered">
+							<thead>
+								<tr>
+									<th>No</th>
+									<th>Nama</th>
+									<th>Keluhan</th>
+									<th>Diagnosis</th>
+									<th>Tindakan</th>
+									<th>Tanggal Periksa</th>
+								</tr>
+							</thead>
+							<tbody>
+								@foreach ($datas as $data)
+								{{-- @foreach ($tanggal) --}}
+								<tr>
+									<td>{{ $loop->iteration }}</td>
+									<td>{{ $data->nama }}</td>
+									<td>{{ $data->keluhan }}</td>
+									<td>{{ $data->diagnosis }}</td>
+									<td>{{ $data->tindakan }}</td>
+									<td>{{ $data->created_at }}</td>
 								</tr>								
 								{{-- @endforeach --}}
 								@endforeach

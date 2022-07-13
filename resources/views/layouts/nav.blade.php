@@ -38,7 +38,8 @@
 					</a>
 				</li>
 				@endif
-				{{-- @if((Auth::user()->role ?? '') == 'Pasien') --}}
+				@if((Auth::user()->role ?? '') == 'Apoteker')
+				@else
 				<li class="">
 					<a href="javascript:;" class="has-arrow">
 						<div class="parent-icon"><i class="bx bx-donate-blood"></i>
@@ -51,7 +52,8 @@
 						<li> <a href="{{ url('rawat-jalan') }}"><i class="bx bx-right-arrow-alt"></i>Rawat Jalan</a>
 						</li>
 					</ul>
-				</li>				
+				</li>	
+				@endif			
 				<li>
 					<a href="{{ url('jadwal-praktik') }}" class="">
 						<div class="parent-icon"><i class='bx bx-calendar'></i>
