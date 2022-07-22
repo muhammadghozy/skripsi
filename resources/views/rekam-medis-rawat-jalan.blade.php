@@ -54,7 +54,7 @@
 									<td>{{ $rawat_jalan->keluhan }}</td>
 									<td>{{ $rawat_jalan->diagnosis }}</td>
 									<td>{{ $rawat_jalan->tindakan }}</td>
-									<td></td>
+									<td>{{ $rawat_jalan->created_at }}</td>
 								</tr>								
 								{{-- @endforeach --}}
 								@endforeach

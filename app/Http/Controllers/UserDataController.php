@@ -16,8 +16,12 @@ class UserDataController extends Controller
      */
     public function index()
     {
+        $user = DB::table('users')
+            ->orderBy('created_at', 'desc')
+            ->get();
         return view('user-management',[
-            'users' => User::all()
+            // 'users' => User::all()
+            'users' => $user
         ]);
     }
 
