@@ -172,6 +172,15 @@
                             </ul>
                         </li> --}}
                         <li>
+                            <a href="#about">Tentang</a>
+                        </li>
+                        <li>
+                            <a href="#layanan">Layanan</a>
+                        </li>
+                        <li>
+                            <a href="#jadwal">Jadwal Praktik</a>
+                        </li>
+                        <li>
                             <a href="/dashboard">Dashboard</a>
                         </li>
                         @auth
@@ -193,7 +202,7 @@
     </header>
     <!-- End Header -->
 
-   <!-- Start Banner 
+    <!-- Start Banner 
     ============================================= -->
     <div class="banner-area inc-shape content-less">
         <div id="bootcarousel" class="carousel text-light text-large slide carousel-fade animate_text" data-ride="carousel">
@@ -307,7 +316,7 @@
 
     <!-- Start About
     ============================================= -->
-    <div class="about-area default-padding bg-gray relative">
+    <div id="about" class="about-area default-padding bg-gray relative">
 
         <!-- Shape -->
         <div class="shape-left-top shape">
@@ -371,7 +380,7 @@
 
     <!-- Start Services 
     ============================================= -->
-    <div class="department-area carousel-shadow default-padding-bottom bg-gray">
+    <div id="layanan" class="department-area carousel-shadow default-padding-bottom bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
@@ -602,16 +611,16 @@
 
     <!-- Start Doctos Area 
     ============================================= -->
-    {{-- <div class="doctors-area bg-gray default-padding">
+    <div id="jadwal" class="doctors-area bg-gray default-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h4>Doctors</h4>
-                        <h2>Meet our Experts</h2>
-                        <p>
+                        <h4>Klinik Buka 24 Jam</h4>
+                        <h2>Jadwal Praktik Dokter</h2>
+                        {{-- <p>
                             While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
-                        </p>
+                        </p> --}}
                     </div>
                 </div>
             </div>
@@ -620,32 +629,32 @@
             <div class="doctor-items">
                 <div class="row">
 
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 alig">
                         <ul id="tabs" class="nav nav-tabs">
                             <li class="nav-item">
                                 <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link">
-                                    <i class="flaticon-cardiologist"></i>
-                                    <span>Cardiologists</span>
+                                    <i class="flaticon-doctor"></i>
+                                    <span>Rawat Inap</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="" data-target="#tab2" data-toggle="tab" class="nav-link">
-                                    <i class="flaticon-dermatologist"></i>
-                                    <span>Dermatologists</span>
+                                    <i class="flaticon-doctor-2"></i>
+                                    <span>Rawat Jalan</span>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a href="" data-target="#tab3" data-toggle="tab" class="nav-link">
-                                    <i class="flaticon-paramedic"></i>
-                                    <span>Medicine Specialists</span>
+                                    <i class="flaticon-tooth-1"></i>
+                                    <span>Poli Gigi</span>
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a href="" data-target="#tab4" data-toggle="tab" class="nav-link">
                                     <i class="flaticon-therapist"></i>
-                                    <span>Family Physicians</span>
+                                    <span>dr. Siti Wahyuni</span>
                                 </a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
 
@@ -655,36 +664,60 @@
                             <div id="tab1" class="tab-pane fade active show">
                                 <div class="item">
                                     <div class="row">
-                                        <div class="col-lg-6 thumb">
+                                        <table class="table mb-0 table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">No</th>
+                                                    <th scope="col">Nama</th>
+                                                    <th scope="col">Spesialis</th>
+                                                    <th scope="col">Hari</th>
+                                                    <th scope="col">Jam</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>dr. Rosyid Prasetyo</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Senin</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>dr. Desi Dyan Ratnasari</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Minggu</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>dr. Lia Dwi Nur Fitri Astuti</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Kamis dan Sabtu</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>dr. Siti Wahyuni</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Selasa, Rabu, dan Jumat</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {{-- <div class="col-lg-6 thumb">
                                             <img src="homepage/assets/img/800x800.png" alt="Thumb">
-                                        </div>
-                                        <div class="col-lg-6 info-box">
+                                        </div> --}}
+                                        {{-- <div class="col-lg-6 info-box">
                                             <div class="info">
-                                                <h4>Dr. Jonathom Doe</h4>
-                                                <span>MBBS, BMBS, MBChB, MBBCh</span>
+                                                <h4>dr. Rosyid Prasetyo</h4>
+                                                <span>Senin</span>
                                                 <p>
                                                     Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. 
                                                 </p>
                                                 <a class="btn btn-sm btn-gradient cirlce" href="#"><i class="fas fa-angle-right"></i> Read More</a>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-lg-6 thumb">
-                                            <img src="homepage/assets/img/800x800.png" alt="Thumb">
-                                        </div>
-                                        <div class="col-lg-6 info-box">
-                                            <div class="info">
-                                                <h4>Prof. Hones Park </h4>
-                                                <span>MBBS, BMBS, MBChB, MBBCh</span>
-                                                <p>
-                                                    Delightful unreserved impossible few estimating men favourable see entreaties. She propriety immediate was improving. He or entrance humoured likewise moderate. 
-                                                </p>
-                                                <a class="btn btn-sm btn-gradient cirlce" href="#"><i class="fas fa-angle-right"></i> Read More</a>
-                                            </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -692,10 +725,51 @@
                             <div id="tab2" class="tab-pane fade">
                                 <div class="item">
                                     <div class="row">
-                                        <div class="col-lg-6 thumb">
+                                        <table class="table mb-0 table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">No</th>
+                                                    <th scope="col">Nama</th>
+                                                    <th scope="col">Spesialis</th>
+                                                    <th scope="col">Hari</th>
+                                                    <th scope="col">Jam</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>dr. Rosyid Prasetyo</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Senin</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>dr. Desi Dyan Ratnasari</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Minggu</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>dr. Lia Dwi Nur Fitri Astuti</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Kamis dan Sabtu</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">5</th>
+                                                    <td>dr. Siti Wahyuni</td>
+                                                    <td>Dokter Umum</td>
+                                                    <td>Selasa, Rabu, dan Jumat</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {{-- <div class="col-lg-6 thumb">
                                             <img src="homepage/assets/img/800x800.png" alt="Thumb">
-                                        </div>
-                                        <div class="col-lg-6 info-box">
+                                        </div> --}}
+                                        {{-- <div class="col-lg-6 info-box">
                                             <div class="info">
                                                 <h4>Professor. Sakaoat Amir</h4>
                                                 <span>MBBS, BMBS, MBChB, MBBCh</span>
@@ -704,7 +778,7 @@
                                                 </p>
                                                 <a class="btn btn-sm btn-gradient cirlce" href="#"><i class="fas fa-angle-right"></i> Read More</a>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
@@ -712,10 +786,30 @@
                             <div id="tab3" class="tab-pane fade">
                                 <div class="item">
                                     <div class="row">
-                                        <div class="col-lg-6 thumb">
+                                        <table class="table mb-0 table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">No</th>
+                                                    <th scope="col">Nama</th>
+                                                    <th scope="col">Spesialis</th>
+                                                    <th scope="col">Hari</th>
+                                                    <th scope="col">Jam</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>drg. Rizqa Mahdyna</td>
+                                                    <td>Dokter Gigi</td>
+                                                    <td>Selasa-Sabtu (Minggu Libur)</td>
+                                                    <td>07:00-18:00</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        {{-- <div class="col-lg-6 thumb">
                                             <img src="homepage/assets/img/800x800.png" alt="Thumb">
-                                        </div>
-                                        <div class="col-lg-6 info-box">
+                                        </div> --}}
+                                        {{-- <div class="col-lg-6 info-box">
                                             <div class="info">
                                                 <h4>Dr. Andro kuria</h4>
                                                 <span>MBBS, BMBS, MBChB, MBBCh</span>
@@ -724,12 +818,12 @@
                                                 </p>
                                                 <a class="btn btn-sm btn-gradient cirlce" href="#"><i class="fas fa-angle-right"></i> Read More</a>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                 </div>
                             </div>
 
-                            <div id="tab4" class="tab-pane fade">
+                            {{-- <div id="tab4" class="tab-pane fade">
                                 <div class="item">
                                     <div class="row">
                                         <div class="col-lg-6 thumb">
@@ -747,14 +841,14 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
     <!-- End Doctos Area -->
 
     <!-- Start Testomonials 
@@ -1122,6 +1216,9 @@
                                 </li>
                                 <li>
                                     <a>KB/KIA</a>
+                                </li>
+                                <li>
+                                    <a>UGD 24 Jam</a>
                                 </li>
                             </ul>
                         </div>
